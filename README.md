@@ -9,9 +9,9 @@ To make is simple : each element is independent and opens API callable by the ot
 
 ## Router
 
-It is the amazing part of angular is its router so easy to manage.
+The amazing part of angular is its simple but amazing router
 
-app.ts component defines router as it
+app.ts component defines router as
 ```
 {
   path: '/kitesurf/',
@@ -19,7 +19,7 @@ app.ts component defines router as it
 }
 ```
 
-kitesurf.ts component defines router as it
+kitesurf.ts component defines router as
 ```
 {
   path: '/:location/',
@@ -27,7 +27,7 @@ kitesurf.ts component defines router as it
 }
 ```
 
-wind.ts component defines router as it
+wind.ts component defines router as
 ```
 {
   path: ''
