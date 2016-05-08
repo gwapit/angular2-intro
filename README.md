@@ -11,7 +11,7 @@ To make is simple : each element is independent and opens API callable by the ot
 
 It is the amazing part of angular is its router so easy to manage.
 
-on the app.ts define router as it
+app.ts component defines router as it
 ```
 {
   path: '/kitesurf/',
@@ -19,7 +19,7 @@ on the app.ts define router as it
 }
 ```
 
-kitesurf.ts component define router as it
+kitesurf.ts component defines router as it
 ```
 {
   path: '/:location/',
@@ -27,10 +27,10 @@ kitesurf.ts component define router as it
 }
 ```
 
-wind.ts component define router as it
+wind.ts component defines router as it
 ```
 {
   path: ''
 }
 ```
-When you access ```/kitesurf/sanfrancisco``` automatically loading all 3 components setting ```location = sanfrancisco``` so that you know the wind in San Francisco
+When you access ```/kitesurf/sanfrancisco``` angular2 automatically loads all 3 components, setting ```location = sanfrancisco``` so that you know the wind in San Francisco
